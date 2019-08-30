@@ -1,82 +1,64 @@
 Open main1.py. Before running it, what do you expect this program to do? 
-
+I expect it to ask me what my favorite color is. 
 Now right click on the window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened. 
-
-What do you think the program did with what you typed?
-
-
-
+The Python code asked me what my favorite color is after saying greetings. I said Red, and it reponded with a line of text that references the save file that I made fof this assingment in the downloads folder.
+What do you think the program did with what you typed
+It ran the code and printed what it whas specifically told to say.
 Open main2.py. Before running it, describe how this is different than main1.py. 
-
+There is a print color action included.
 What do you think the color = input() will do? 
-
+I think it will include a change in color.
 Run the program in the terminal and answer the question. Did the program do what you expected?
-
-
-
-Open main3.py. Before running it, describe how this is different than main2.py. 
-
+No, it just started to copy everything that I said.
+Open main3.py. Before running it, describe how this is different than main2.py.
+It has a conditional function.
 What is happening on lines 11–14? 
-
+It is a condtional code statement. If this, then correct, if not sorry try again.
 Why are lines 12 and 14 indented? 
-
+Becuase they are a conditional function.
 Run the program and answer the question. What happens if you don’t capitalize Red? 
-
+If you don't capitalize red, then it says sorry try again.
 What does this tell you about "color"?
-
-
-
+That it is case sensitive on the first letter of the word.
 Open main4.py. Before running it, describe how this is different than main2.py. 
-
+There is a conditional function that states if it is Red or red, then it is correct.
 What problem is this trying to solve? 
-
+What my correct favorite color is. 
 Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
-
-
-
+It says sorry try again. It does not like other letters capitalized than the specific first one. 
 Open main5.py. What do you expect line 11 to do? 
-
+I would expect that it now wants to accept something more than lowercase letters on most of the word.
 What problem is it trying to solve? 
-
+It is trying to solve what my favorite color is with the conditions needed.
 Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “  RED  “ or “ red”)?
-
-
-
+It does not accept spaces before or after.
 Open main6.py. How is line 11 different than main5.py? 
-
+They have included a new "strip" command.
 What would you guess .strip() is doing? 
-
+I would guess that it is taking something off.
 Run the program and answer the question. Is there another way of writing “red” that will break this logic?
-
-
-
+Yes there is. If you type a normal red.
 Open main7.py. Before running this program, how do you expect this to be different than main6.py? 
-
+It is now producing a response for the color pink.
 What is the purpose of line 11? 
-
+It is including all of the previous things with it.
 Run the program and answer the question.
-
-
-
+It now responds with close for pink.
 Open main8.py. What is the purpose of line 11? 
-
+There is now a while conditional function included.
 Why are lines 12–19 indented? 
-
+Becuase they all are supposed to be able to work under and with the while function.
 Run the program. What would happen if line 12 were moved before line 11 (and no longer indented)? 
-
+The whole code stops producing the response on what color you answer.
 Make that change and run the program again. To end any Python program, you can type ctrl-c.
-
-
-
 Open main9.py. What is happening on line 12? 
-
+An excamation point has been added.
 What is the purpose of “count”? 
-
+It is keeping track of how many guesses it took for you to guess the right answer.
 What is happening on line 22? 
-
+ It tells how many tries it for you to guess the right answer.
 Run the program.
-
-
+It told me I guesses correctly in one try.
 *Extra credit:* open main10.py. Add a comment to each line describing what it is doing (a comment follows a pound sign [#]). 
 
 Commit your changes and push them back to the repository. 
